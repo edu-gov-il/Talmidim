@@ -9,7 +9,7 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
     public class ShgiyaShibutz
     {
         public long MEZAHE_SHGIYA { get; set; }
-        public int? MEZAHE_RESHUMA_SHIBUTZ { get; set; }
+        public long MEZAHE_RESHUMA_SHIBUTZ { get; set; }
         public DateTime TAARICH_HATCHALA { get; set; }
         public DateTime? TAARICH_SIYUM { get; set; }
         public int? CODE_SADE { get; set; }

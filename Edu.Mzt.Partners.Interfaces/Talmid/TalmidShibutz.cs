@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 namespace Edu.Mzt.Partners.Interfaces.Talmid
 {
     public class TalmidShibutz
-    {        
+    {
+        public long MEZAHE_RESHUMA_SHIBUTZ { get; set; }
         public int SUG_ZEHUT { get; set; }
         public int MISPAR_ZEHUT { get; set; }        
         public int SEMEL_MOSAD { get; set; }
@@ -30,7 +31,7 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public int? CODE_MAKOR_NATON_TALMID { get; set; }
         public int? CODE_ZAKAUT_LSCHAR_LIMUD { get; set; }
         public DateTime? TAARICH_IDKUN_SCHASR_LIMUD { get; set; }
-        public int MEZAHE_RESHUMA_SHIBUTZ { get; set; }
+        
         public int? CODE_IDKUN_SHIBUTZ { get; set; }        
         public string CODE_MISHTAMESH_YOTSER { get; set; }
         public DateTime TAARICH_YETSIRAT_RESHUMA { get; set; }
