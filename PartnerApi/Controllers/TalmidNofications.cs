@@ -14,8 +14,10 @@ namespace PartnerApi.Controllers
         [Route("TalmidShibutz")]
         public IHttpActionResult TalmidShibutz([FromBody] TalmidShibutz data)
         {
-            var tz = data.MISPAR_ZEHUT;
+            //return NotFound();
+            //var tz = data.MISPAR_ZEHUT;
             // save the data to the db here 
+
             return Ok(data);
         }
         
@@ -23,8 +25,10 @@ namespace PartnerApi.Controllers
         [HttpPost]
         [Route("TalmidKesher")]
         public IHttpActionResult TalmidKesher([FromBody] TalmidShibutz data)
-        {           
-            var tz = data.MISPAR_ZEHUT;
+        {
+            return BadRequest();
+            //return NotFound();
+            //var tz = data.MISPAR_ZEHUT;
             // save the data to the db here 
             return Ok(data);
         }
