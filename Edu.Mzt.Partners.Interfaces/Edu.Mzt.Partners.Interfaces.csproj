@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MosadKita\MosadKita.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Talmid\ShgiyaShibutz.cs" />
     <Compile Include="Talmid\TalmidShibutz.cs" />

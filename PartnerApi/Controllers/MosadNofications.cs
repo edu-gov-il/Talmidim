@@ -1,4 +1,5 @@
-﻿using Edu.Mzt.Partners.Interfaces.Talmid;
+﻿using Edu.Mzt.Partners.Interfaces.MosadKita;
+using Edu.Mzt.Partners.Interfaces.Talmid;
 using PartnerApi.AppCode;
 using System.Web.Http;
 
@@ -11,21 +12,20 @@ namespace PartnerApi.Controllers
         
         [HttpPost]       
         [Route("MosadInfo")]
-        public IHttpActionResult MosadInfo([FromBody] TalmidShibutz data)
+        public IHttpActionResult MosadInfo([FromBody] MosadKita data)
         {
-            // save the data to the db here.. 
-
-            var tz = data.MISPAR_ZEHUT;
+            // save the data to the db here..   
             return Ok(data);
         }
 
-        [HttpPost]
-        [Route("MosadMegama")]
-        public IHttpActionResult MosadMegama([FromBody] TalmidShibutz data)
-        {
-            var tz = data.MISPAR_ZEHUT;
-            return Ok(data);
-        }
+
+        //[HttpPost]
+        //[Route("MosadMegama")]
+        //public IHttpActionResult MosadMegama([FromBody] TalmidShibutz data)
+        //{
+        //    var tz = data.MISPAR_ZEHUT;
+        //    return Ok(data);
+        //}
         
     }
 }
