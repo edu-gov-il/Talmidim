@@ -7,8 +7,7 @@ namespace PartnerApi.Controllers
     [RoutePrefix("v1.0/TalmidNofications")]
     [AuthorizeCallerByHeader()]
     public class TalmidNoficationsController : ApiController
-    {
-        
+    {        
         [HttpPost]
         [Route("TalmidShibutz")]
         public IHttpActionResult TalmidShibutz([FromBody] TalmidShibutz data)
