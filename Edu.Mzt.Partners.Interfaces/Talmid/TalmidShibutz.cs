@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Edu.Mzt.Partners.Interfaces.Talmid
 {
     //push test - lior
-
+    
     public class TalmidShibutz
     {
         public long MEZAHE_RESHUMA_SHIBUTZ { get; set; }
