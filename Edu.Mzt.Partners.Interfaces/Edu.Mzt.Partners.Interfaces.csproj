@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MosadKita\Megamot.cs" />
+    <Compile Include="MosadKita\Michsot.cs" />
     <Compile Include="MosadKita\MosadKita.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Talmid\ShgiyaShibutz.cs" />
