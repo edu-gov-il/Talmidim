@@ -51,6 +51,7 @@
     <Compile Include="Talmid\GoremKesherEmail.cs" />
     <Compile Include="Talmid\GoremKesherKtovet.cs" />
     <Compile Include="Talmid\GoremKesherTelephone.cs" />
+    <Compile Include="Talmid\HatzharatMenahel.cs" />
     <Compile Include="Talmid\ShgiyaShibutz.cs" />
     <Compile Include="Talmid\TalmidGormeyKesher.cs" />
     <Compile Include="Talmid\TalmidInfo.cs" />
