@@ -48,7 +48,15 @@
   <ItemGroup>
     <Compile Include="MosadKita\MosadKita.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Talmid\GoremKesherEmail.cs" />
+    <Compile Include="Talmid\GoremKesherKtovet.cs" />
+    <Compile Include="Talmid\GoremKesherTelephone.cs" />
+    <Compile Include="Talmid\HatzharatMenahel.cs" />
+    <Compile Include="Talmid\HatzharatMutav.cs" />
     <Compile Include="Talmid\ShgiyaShibutz.cs" />
+    <Compile Include="Talmid\TalmidGormeyKesher.cs" />
+    <Compile Include="Talmid\TalmidInfo.cs" />
+    <Compile Include="Talmid\TalmidKesher.cs" />
     <Compile Include="Talmid\TalmidShibutz.cs" />
   </ItemGroup>
   <ItemGroup>
