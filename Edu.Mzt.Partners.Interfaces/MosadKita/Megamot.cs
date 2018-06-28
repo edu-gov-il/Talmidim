@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Edu.Mzt.Partners.Interfaces.MosadKita
 {
-    public class MegamaNotifyPayload
+    public class MegamaInfo
     {
         public int SHNAT_LIMUDIM { get; set; }
         public int SEMEL_MISGERET_IRGUNIT { get; set; }
