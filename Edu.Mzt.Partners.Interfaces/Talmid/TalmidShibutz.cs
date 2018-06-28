@@ -7,11 +7,10 @@ using System.Threading.Tasks;
 
 namespace Edu.Mzt.Partners.Interfaces.Talmid
 {
-    //push test - lior
-    
+        
     public class TalmidShibutz
     {
-      
+        public long MEZAHE_RESHUMA_SHIBUTZ { get; set; }
         public int SUG_ZEHUT { get; set; }
         public int MISPAR_ZEHUT { get; set; }        
         public int SEMEL_MOSAD { get; set; }
@@ -27,10 +26,10 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public int? CODE_HASMACHA { get; set; }
         public int? CODE_STATUS_RISHUM_TA { get; set; }
         public DateTime? TAARICH_AZIVA { get; set; }
-        public int? SIBAT_AZIVA { get; set; }
+        public int? CODE_SIBAT_AZIVA { get; set; }
         public string PIRUT_AZIVA { get; set; }        
         public int? CODE_MAKOR_NATON_TALMID { get; set; }
-        public long MEZAHE_RESHUMA_SHIBUTZ { get; set; }
+        
         public int? CODE_IDKUN_SHIBUTZ { get; set; }        
         public string CODE_MISHTAMESH_YOTSER { get; set; }
         public DateTime TAARICH_YETSIRAT_RESHUMA { get; set; }
