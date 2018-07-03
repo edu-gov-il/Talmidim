@@ -39,7 +39,7 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public int SUG_ZEHUT_KODEM { get; set; }
         public int MISPAR_ZEHUT_KODEM { get; set; }
         public string CODE_MISHTAMESH_MEADKEN { get; set; }
-        public DateTime TAARI_CH_IDKUN_RESHUMA { get; set; }
+        public DateTime TAARICH_IDKUN_RESHUMA { get; set; }
         public int CODE_YEUD_KTOVET_TAL { get; set; }
         public int SEMEL_YISHUV_TAL { get; set; }
         public int SEMEL_RECHOV_TAL { get; set; }
