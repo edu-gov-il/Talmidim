@@ -49,7 +49,7 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public int CODE_KIDOMET_NAYAD1_TAL { get; set; }
         public int MISPAR_TEL_NAYAD1_TAL { get; set; }
         public DateTime TAARICH_IDKUN_NAYAD1_TAL { get; set; }
-        public int CODE_MISHTAMESH_MEADKEN_NAYAD1_TAL { get; set; }
+        public string CODE_MISHTAMESH_MEADKEN_NAYAD1_TAL { get; set; }
         public int NAYAD1_TAL_LESHIMUSH_MISRAD { get; set; }
         public int CODE_SUG_TEL_NAYAD2_TAL { get; set; }
         public int CODE_KIDOMET_NAYAD2_TAL { get; set; }
