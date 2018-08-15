@@ -57,6 +57,6 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public DateTime TAARICH_IDKUN_NAYAD2_TAL { get; set; }
         public string CODE_MISHTAMESH_MEADKEN_NAYAD2_TAL { get; set; }
         public int NAYAD2_TAL_LESHIMUSH_MISRAD { get; set; }
-        //gsdfgsfdgsdfgsdfgs          
+                 
     }
 }
