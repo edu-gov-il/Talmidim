@@ -16,7 +16,7 @@ namespace PartnerApi.Controllers
     [RoutePrefix ("v1.0/MosadNotifications")]
     public class MosadNoficationsController : ApiController
     {
-
+        // CHECK 
         //[HttpPost]
         //[Route("MosadInfo")]
         //public IHttpActionResult MosadInfo([FromBody] MosadInfo data)
