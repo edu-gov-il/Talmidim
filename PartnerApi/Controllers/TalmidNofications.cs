@@ -12,7 +12,7 @@ using Edu.Mzt.Partners.Interfaces.Talmid;
 
 namespace PartnerApi.Controllers
 {    
-    [RoutePrefix("v1.0/TalmidNofications")]
+    [RoutePrefix("v1.0/TalmidNotifications")]
     [AuthorizeCallerByHeader()]
     public class TalmidNoficationsController : ApiController
     {

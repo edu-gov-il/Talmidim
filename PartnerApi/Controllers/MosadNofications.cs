@@ -13,13 +13,13 @@ using System.Web.Http;
 namespace PartnerApi.Controllers
 {
     [AuthorizeCallerByHeader()]
-    [RoutePrefix ("v1.0/MosadNofications")]
+    [RoutePrefix ("v1.0/MosadNotifications")]
     public class MosadNoficationsController : ApiController
     {
-        
-        //[HttpPost]       
+
+        //[HttpPost]
         //[Route("MosadInfo")]
-        //public IHttpActionResult MosadInfo([FromBody] MosadKita data)
+        //public IHttpActionResult MosadInfo([FromBody] MosadInfo data)
         //{
         //    // save the data to the db here..   
         //    return Ok(data);
