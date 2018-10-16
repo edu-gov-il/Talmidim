@@ -17,13 +17,13 @@ namespace PartnerApi.Controllers
     public class MosadNoficationsController : ApiController
     {
         // CHECK 
-        //[HttpPost]
-        //[Route("MosadInfo")]
-        //public IHttpActionResult MosadInfo([FromBody] MosadInfo data)
-        //{
-        //    // save the data to the db here..   
-        //    return Ok(data);
-        //}
+        [HttpPost]
+        [Route("MosadInfo")]
+        public IHttpActionResult MosadInfo([FromBody] MosadInfo data)
+        {
+            // save the data to the db here..   
+            return Ok(data);
+        }
 
         [HttpPost]
         [Route("KitaInfo")]
@@ -43,7 +43,7 @@ namespace PartnerApi.Controllers
 
         [HttpPost]
         [Route("KitaMichsa")]
-        public IHttpActionResult KitaMichsa([FromBody] Michsa data)
+        public IHttpActionResult KitaMichsa([FromBody] KitaMichsa data)
         {
             // save the data to the db here..   
             return Ok(data);

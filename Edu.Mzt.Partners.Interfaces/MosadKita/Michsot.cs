@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Edu.Mzt.Partners.Interfaces.MosadKita
 {
-    public class Michsa
+    public class KitaMichsa
     {
         public int SHNAT_LIMUDIM { get; set; }
         public int SEMEL_MOSAD { get; set; }
@@ -20,3 +21,4 @@ namespace Edu.Mzt.Partners.Interfaces.MosadKita
     }
 
 }
+
