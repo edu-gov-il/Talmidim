@@ -19,7 +19,7 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public int MZT_KESHER_GOREM_TALMID_PARIT { get; set; }
         public int CODE_MAAMAD_HORE_GOREM_KESHER { get; set; }
         public int CODE_SUG_KIRVA_GOREM_KESHER { get; set; }
-        public int HAIM_ACHRAI_GOREM_KESHER { get; set; }
+        //public int HAIM_ACHRAI_GOREM_KESHER { get; set; }
         public int HAIM_MESHALEM_GOREM_KESHER { get; set; }
         public int SEMEL_MOSAD_GOREM_KESHER { get; set; }
         public DateTime TAARICH_HATCHALA_GOREM_KESHER { get; set; }
@@ -31,7 +31,7 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public int CODE_ERETS_LEDA_GOREM_KESHER { get; set; }
         public DateTime TAARICH_LEDA_KOVEA_GOREM_KESHER { get; set; }
         public string DARKON_GOREM_KESHER { get; set; }
-        public int ERETS_DARKON_GOREM_KESHER { get; set; }
+        //public int ERETS_DARKON_GOREM_KESHER { get; set; }
         public int MISPAR_SHNOT_LIMUD_GOREM_KESHER { get; set; }
         public int DIVUACH_MATSAV_MISHPAHTI_GOREM_KESHER { get; set; }
         public int HAIM_NIFTAR_GOREM_KESHER { get; set; }

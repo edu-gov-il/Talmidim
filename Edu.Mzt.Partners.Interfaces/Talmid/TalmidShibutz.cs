@@ -15,6 +15,7 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public int MISPAR_ZEHUT { get; set; }        
         public int SEMEL_MOSAD { get; set; }
         public int SHNAT_LIMUDIM { get; set; }
+        public DateTime TAARICH_HATCHALA { get; set; } // update 2018-10-18
         public DateTime? TAARICH_SIYUM { get; set; }
         public int? TKINUT_SHIBUTZ { get; set; }   // 1= ok , 2 = not ok 
         public int? SHICHVA { get; set; }

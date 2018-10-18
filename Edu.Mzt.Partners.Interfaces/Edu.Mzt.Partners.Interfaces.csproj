@@ -60,6 +60,7 @@
     <Compile Include="Talmid\TalmidInfo.cs" />
     <Compile Include="Talmid\TalmidKesher.cs" />
     <Compile Include="Talmid\TalmidShibutz.cs" />
+    <Compile Include="Talmid\ZakautScharLimud.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />

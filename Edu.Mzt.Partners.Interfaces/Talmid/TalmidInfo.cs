@@ -22,10 +22,10 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public DateTime TAARICH_ALIYA_KOVEA { get; set; }
         public int CODE_ERETS_LEDA { get; set; }
         public int CODE_LEOM_PNIM { get; set; }
-        public string SHEM_AV { get; set; }
-        public int CODE_ERETS_LEDA_AV { get; set; }
-        public string SHEM_EM { get; set; }
-        public int CODE_ERETS_LEDA_EM { get; set; }
+        //public string SHEM_AV { get; set; }
+        //public int CODE_ERETS_LEDA_AV { get; set; }
+        //public string SHEM_EM { get; set; }
+        //public int CODE_ERETS_LEDA_EM { get; set; }
         public string SHEM_PRATI_KINUI { get; set; }
         public string SHEM_MISHPACHA_KINUI { get; set; }
         public string SHEM_NOSAF_KINUI { get; set; }
