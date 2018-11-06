@@ -27,7 +27,7 @@ namespace PartnerApi.Controllers
 
         [HttpPost]
         [Route("KitaInfo")]
-        public IHttpActionResult KitaInfo([FromBody] MosadKita data)
+        public IHttpActionResult KitaInfo([FromBody] KitaInfo data)
         {
             // save the data to the db here..   
             return Ok(data);
