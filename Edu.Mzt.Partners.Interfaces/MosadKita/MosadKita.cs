@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Edu.Mzt.Partners.Interfaces.MosadKita
 {
-    public class MosadKita
+    public class KitaInfo
     {
         public class Mechanech
         {
@@ -20,7 +20,7 @@ namespace Edu.Mzt.Partners.Interfaces.MosadKita
         public int SEMEL_MOSAD { get; set; }
         public int SHICHVA { get; set; }
         public int MAKBILA { get; set; }
-        public long IDֹֹ_KITA { get; set; }
+        public long ID_KITA { get; set; }
         public int SUG_KITA { get; set; }
         public string SHEM_KITA { get; set; }
         public int? HERKEV_KITA { get; set; }
@@ -52,9 +52,9 @@ namespace Edu.Mzt.Partners.Interfaces.MosadKita
         public int? MISPAR_BAYIT { get; set; }
         public int SEMEL_YISHUV { get; set; }
         public int? MACHOZ_GEOGRAFI { get; set; }
-        public int? KIDOMET_TELEPHONE { get; set; }
+        public string KIDOMET_TELEPHONE { get; set; }
         public int? TELEPHONE_MOSAD { get; set; }
-        public int? KIDOMET_FAX { get; set; }
+        public string KIDOMET_FAX { get; set; }
         public int? MIS_FAX { get; set; }
         public int? SEMEL_YISHUV_MICHTAVIM { get; set; }
         public int? MIKUD_MICHTAVIM { get; set; }
@@ -89,7 +89,7 @@ namespace Edu.Mzt.Partners.Interfaces.MosadKita
         public string YEMEY_LIMUD_STR { get; set; }
         public int? NATIV { get; set; }
         public int MAAMAD_MISHPATI { get; set; }
-        public string ZAKAUT_SCHAR_LIMUD { get; set; }
+        public int? ZAKAUT_SCHAR_LIMUD { get; set; }
         public int? ZAKAUT_LE_MOCHZAKUT { get; set; }
         public float? ACHUZ_RAMAT_SHERUT { get; set; }
         public int? PROFIL_MORIM { get; set; }
@@ -102,6 +102,7 @@ namespace Edu.Mzt.Partners.Interfaces.MosadKita
         public DateTime TAARICH_IDKUN { get; set; }
         public string CODE_MISHTAMESH_MEADKEN { get; set; }
     }
+
 
 
 }
