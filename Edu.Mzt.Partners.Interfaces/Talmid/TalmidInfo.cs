@@ -12,7 +12,7 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public int MISPAR_ZEHUT { get; set; }
         public int SEMEL_MOSAD { get; set; }
         public int CODE_PEILUT { get; set; }
-        public DateTime TAARICH_PEILUT { get; set; }
+        public DateTime? TAARICH_PEILUT { get; set; }
         public string SHEM_MISHPACHA { get; set; }
         public string SHEM_PRATI { get; set; }
         public int CODE_MIN { get; set; }
