@@ -22,20 +22,20 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         //public int HAIM_ACHRAI_GOREM_KESHER { get; set; }
         public int HAIM_MESHALEM_GOREM_KESHER { get; set; }
         public int SEMEL_MOSAD_GOREM_KESHER { get; set; }
-        public DateTime TAARICH_HATCHALA_GOREM_KESHER { get; set; }
-        public DateTime TAARICH_SIYUM_GOREM_KESHER { get; set; }
+        public DateTime? TAARICH_HATCHALA_GOREM_KESHER { get; set; }
+        public DateTime? TAARICH_SIYUM_GOREM_KESHER { get; set; }
         public string SHEM_PRATI_GOREM_KESHER { get; set; }
         public string SHEM_MISHPACHA_GOREM_KESHER { get; set; }
         public int SFAT_DIBUR_GOREM_KESHER { get; set; }
         public string ISUK_GOREM_KESHER { get; set; }
         public int CODE_ERETS_LEDA_GOREM_KESHER { get; set; }
-        public DateTime TAARICH_LEDA_KOVEA_GOREM_KESHER { get; set; }
+        public DateTime? TAARICH_LEDA_KOVEA_GOREM_KESHER { get; set; }
         public string DARKON_GOREM_KESHER { get; set; }
         //public int ERETS_DARKON_GOREM_KESHER { get; set; }
         public int MISPAR_SHNOT_LIMUD_GOREM_KESHER { get; set; }
         public int DIVUACH_MATSAV_MISHPAHTI_GOREM_KESHER { get; set; }
         public int HAIM_NIFTAR_GOREM_KESHER { get; set; }
-        public DateTime TAARICH_IDKUN_PRATIM_GOREM_KESHER { get; set; }
+        public DateTime? TAARICH_IDKUN_PRATIM_GOREM_KESHER { get; set; }
         public string CODE_MISHTAMESH_MEADKEN_PRATIM_GOREM_KESHER { get; set; }
         public List<GoremKesherEmail> GOREM_KESHER_EMAIL_LIST { get; set; }
         public List<GoremKesherTelephone> GOREM_KESHER_TELEPHONE_LIST { get; set; }

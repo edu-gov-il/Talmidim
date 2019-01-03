@@ -19,9 +19,9 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public int TEVAT_DOAR_G_KESHER { get; set; }
         public string DOAR_NA_G_KESHER { get; set; }
         public string SHCHUNA_G_KESHER { get; set; }
-        public DateTime TAARICH_IDKUN_KTV_G_KESHER { get; set; }
+        public DateTime? TAARICH_IDKUN_KTV_G_KESHER { get; set; }
         public string CODE_MISHTAMESH_MEADKEN_KTV_G_KESHER { get; set; }
-        public DateTime TAARICH_IDKUN_RESHUMA_KTV_G_KESHER { get; set; }
+        public DateTime? TAARICH_IDKUN_RESHUMA_KTV_G_KESHER { get; set; }
 
     }
 

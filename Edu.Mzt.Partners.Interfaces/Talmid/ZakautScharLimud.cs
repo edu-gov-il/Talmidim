@@ -15,7 +15,7 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public int SEMEL_MOSAD_TALMID { get; set; }
         public long MEZAHE_RESHUMA_SHIBUTZ { get; set;}
         public int CODE_ZAKAUT_LSCHAR_LIMUD { get; set; }
-        public DateTime TAARICH_IDKUN_SCHASR_LIMUD { get; set; }
+        public DateTime? TAARICH_IDKUN_SCHASR_LIMUD { get; set; }
        
 
 

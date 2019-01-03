@@ -13,14 +13,14 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         //public int SEMEL_MOSAD_TALMID { get; set; }
         public long MEZAHE_SHGIYA { get; set; }
         public long MEZAHE_RESHUMA_SHIBUTZ { get; set; }
-        public DateTime TAARICH_HATCHALA { get; set; }
-        public DateTime TAARICH_SIYUM { get; set; }
+        public DateTime? TAARICH_HATCHALA { get; set; }
+        public DateTime? TAARICH_SIYUM { get; set; }
         public int CODE_SADE { get; set; }
 
         public int CODE_HODAA { get; set; }
         public int SHNAT_LIMUDIM { get; set; }
         public string CODE_MISHTAMESH_MEADKEN_SHGIYA { get; set; }
-        public DateTime TAARICH_IDKUN_RESHUMA_SHGIYA { get; set; }
+        public DateTime? TAARICH_IDKUN_RESHUMA_SHGIYA { get; set; }
 
         //public long MEZAHE_SHGIYA { get; set; }
         //public long MEZAHE_RESHUMA_SHIBUTZ { get; set; }

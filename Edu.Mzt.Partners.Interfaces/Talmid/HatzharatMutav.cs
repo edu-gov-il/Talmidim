@@ -15,7 +15,7 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public long MEZAHE_RESHUMA_SHIBUTZ { get; set; }
         public int CODE_STATUS_HATZHARA_MUTAV { get; set; }
         public long MEZAHE_HATZHARA_MUTAV { get; set; }
-        public DateTime TAARICH_IDKUN_MEZAHE_HATZHARA_MUTAV { get; set; }
+        public DateTime? TAARICH_IDKUN_MEZAHE_HATZHARA_MUTAV { get; set; }
         public string CODE_MISHTAMESH_MEADKEN_MEZAHE_HATZHARA_MUTAV { get; set; }
 
     }

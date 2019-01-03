@@ -15,7 +15,7 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public int MISPAR_ZEHUT { get; set; }        
         public int SEMEL_MOSAD { get; set; }
         public int SHNAT_LIMUDIM { get; set; }
-        public DateTime TAARICH_HATCHALA { get; set; } // update 2018-10-18
+        public DateTime? TAARICH_HATCHALA { get; set; } // update 2018-10-18
         public DateTime? TAARICH_SIYUM { get; set; }
         public int? TKINUT_SHIBUTZ { get; set; }   // 1= ok , 2 = not ok 
         public int? SHICHVA { get; set; }
@@ -29,13 +29,13 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
         public DateTime? TAARICH_AZIVA { get; set; }
         public int? CODE_SIBAT_AZIVA { get; set; }
         public string PIRUT_AZIVA { get; set; }        
-        public int? CODE_MAKOR_NATON_TALMID { get; set; }
+        //public int? CODE_MAKOR_NATON_TALMID { get; set; }
         
         public int? CODE_IDKUN_SHIBUTZ { get; set; }        
         public string CODE_MISHTAMESH_YOTSER { get; set; }
-        public DateTime TAARICH_YETSIRAT_RESHUMA { get; set; }
+        public DateTime? TAARICH_YETSIRAT_RESHUMA { get; set; }
         public string CODE_MISHTAMESH_MEADKEN { get; set; }
-        public DateTime TAARICH_IDKUN_RESHUMA { get; set; }
+        public DateTime? TAARICH_IDKUN_RESHUMA { get; set; }
 
         public IEnumerable<ShgiyaShibutz> ShgiotShibutz { get; set; }
 

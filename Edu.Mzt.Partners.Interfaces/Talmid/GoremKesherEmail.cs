@@ -9,11 +9,11 @@ namespace Edu.Mzt.Partners.Interfaces.Talmid
     public class GoremKesherEmail
     {
         public string EMAIL_RASHI_GOREM_KESHER { get; set; }
-        public DateTime TAARICH_IDKUN_EMAIL_RASHI_GOREM_KESHER { get; set; }
+        public DateTime? TAARICH_IDKUN_EMAIL_RASHI_GOREM_KESHER { get; set; }
         public string CODE_MISHTAMESH_MEADKEN_EMAIL_RASHI_GOREM_KESHER { get; set; }
         public int EMAIL_RASHI_G_LESHIMUSH_MISRAD { get; set; }
         public string EMAIL_NOSAF_GOREM_KESHER { get; set; }
-        public DateTime TAARICH_IDKUN_EMAIL_NOSAF_GOREM_KESHER { get; set; }
+        public DateTime? TAARICH_IDKUN_EMAIL_NOSAF_GOREM_KESHER { get; set; }
         public string CODE_MISHTAMESH_MEADKEN_EMAIL_NOSAF_GOREM_KESHER { get; set; }
         public int  EMAIL_NOSAF_G_LESHIMUSH_MISRAD { get; set; }
 
