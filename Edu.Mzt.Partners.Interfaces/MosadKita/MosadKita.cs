@@ -52,9 +52,9 @@ namespace Edu.Mzt.Partners.Interfaces.MosadKita
         public int? MISPAR_BAYIT { get; set; }
         public int SEMEL_YISHUV { get; set; }
         public int? MACHOZ_GEOGRAFI { get; set; }
-        public string KIDOMET_TELEPHONE { get; set; }
+        public int? KIDOMET_TELEPHONE { get; set; }
         public int? TELEPHONE_MOSAD { get; set; }
-        public string KIDOMET_FAX { get; set; }
+        public int? KIDOMET_FAX { get; set; }
         public int? MIS_FAX { get; set; }
         public int? SEMEL_YISHUV_MICHTAVIM { get; set; }
         public int? MIKUD_MICHTAVIM { get; set; }
@@ -101,6 +101,11 @@ namespace Edu.Mzt.Partners.Interfaces.MosadKita
         public int? MIS_ZEVET { get; set; }
         public DateTime TAARICH_IDKUN { get; set; }
         public string CODE_MISHTAMESH_MEADKEN { get; set; }
+
+        public int CODE_SHANA_NOCHECHIT { get; set; }
+        public int? SUG_CHINUCH { get; set; }
+      
+
     }
 
 
